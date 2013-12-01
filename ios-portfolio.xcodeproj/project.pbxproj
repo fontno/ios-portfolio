@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8B775E9E4FAC418BACAD2041 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FABF7CB9E74F7CAE4AB14D /* libPods.a */; };
 		D3150D6B183ABB6B00BEF680 /* AuthenticationTokenStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D3150D6A183ABB6B00BEF680 /* AuthenticationTokenStore.m */; };
+		D3150D6E183C30EA00BEF680 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3150D6D183C30EA00BEF680 /* MainViewController.m */; };
+		D37EE240183EC40C00318813 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37EE23F183EC40C00318813 /* LoginViewController.m */; };
 		D393D7FE1831AAF900589221 /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D393D7FD1831AAF900589221 /* APIClient.m */; };
 		D393D8001832065300589221 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D393D7FF1832065300589221 /* MobileCoreServices.framework */; };
 		D393D8021832066800589221 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D393D8011832066800589221 /* SystemConfiguration.framework */; };
@@ -42,6 +44,10 @@
 		23509759448C4C7D9CAC9E74 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		D3150D69183ABB6B00BEF680 /* AuthenticationTokenStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationTokenStore.h; sourceTree = "<group>"; };
 		D3150D6A183ABB6B00BEF680 /* AuthenticationTokenStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationTokenStore.m; sourceTree = "<group>"; };
+		D3150D6C183C30EA00BEF680 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D3150D6D183C30EA00BEF680 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D37EE23E183EC40C00318813 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D37EE23F183EC40C00318813 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		D393D7FC1831AAF900589221 /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
 		D393D7FD1831AAF900589221 /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
 		D393D7FF1832065300589221 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -138,6 +144,10 @@
 				D393D7FD1831AAF900589221 /* APIClient.m */,
 				D3150D69183ABB6B00BEF680 /* AuthenticationTokenStore.h */,
 				D3150D6A183ABB6B00BEF680 /* AuthenticationTokenStore.m */,
+				D3150D6C183C30EA00BEF680 /* MainViewController.h */,
+				D37EE23E183EC40C00318813 /* LoginViewController.h */,
+				D37EE23F183EC40C00318813 /* LoginViewController.m */,
+				D3150D6D183C30EA00BEF680 /* MainViewController.m */,
 				D39CA6D81831A2080074FC62 /* Supporting Files */,
 			);
 			path = "ios-portfolio";
@@ -321,6 +331,8 @@
 				D39CA6E21831A2080074FC62 /* AppDelegate.m in Sources */,
 				D393D7FE1831AAF900589221 /* APIClient.m in Sources */,
 				D3150D6B183ABB6B00BEF680 /* AuthenticationTokenStore.m in Sources */,
+				D3150D6E183C30EA00BEF680 /* MainViewController.m in Sources */,
+				D37EE240183EC40C00318813 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,8 +21,8 @@
     [self setSecureValue:authenticationToken
                   forKey:@"auth_token"];
     
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"token-changed"
-                                                        object:self];
+//    [[NSNotificationCenter defaultCenter] postNotificationName:@"token-changed"
+//                                                        object:self];
 }
 
 - (BOOL)isAuthenticated

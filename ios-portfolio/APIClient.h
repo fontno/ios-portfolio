@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Brian Fontenot. All rights reserved.
 //
 
-#import "AFHTTPClient.h"
+#import "AFNetworking.h"
 
 @interface APIClient : AFHTTPClient
 
