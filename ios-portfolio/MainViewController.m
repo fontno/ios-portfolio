@@ -36,7 +36,7 @@
     self.statusButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     self.statusButton.frame = CGRectMake(size.width * 0.2f, size.height * 0.1f, 200.0f, 31.0f);
     [self.statusButton setTitle:@"login status" forState:UIControlStateNormal];
-    [self.statusButton addTarget:self action:@selector(fetchMessage:) forControlEvents:UIControlEventTouchDown];
+    [self.statusButton addTarget:self action:@selector(fetchMessage:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.statusButton];
     
     // Logout
@@ -44,7 +44,7 @@
     self.clearAuthTokenButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     self.clearAuthTokenButton.frame = CGRectMake(size.width * 0.2f, size.height * 0.3f, 200.0f, 31.0f);
     [self.clearAuthTokenButton setTitle:@"Logout" forState:UIControlStateNormal];
-    [self.clearAuthTokenButton addTarget:self action:@selector(clearAuthToken:) forControlEvents:UIControlEventTouchDown];
+    [self.clearAuthTokenButton addTarget:self action:@selector(clearAuthToken:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.clearAuthTokenButton];
     
     // Console view
