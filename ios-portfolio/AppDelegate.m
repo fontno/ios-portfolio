@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AFHTTPRequestOperationLogger.h"
 #import "MainViewController.h"
 #import "LoginViewController.h"
 
@@ -25,6 +26,10 @@
 //    self.window.rootViewController = self.viewController;
     
     [self.window makeKeyAndVisible];
+    
+    // AFNetworking logger
+    [[AFHTTPRequestOperationLogger sharedLogger] startLogging];
+    
     return YES;
 }
 
